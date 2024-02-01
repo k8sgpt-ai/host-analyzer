@@ -46,7 +46,7 @@ impl AnalyzerService for AnalyzerImpl {
 
 
         Ok(Response::new(AnalyzerRunResponse{ result: Some(Result{
-            kind: "HostAnalzyer".to_string(),
+            kind: "HostAnalyzer".to_string(),
             name: "".to_string(),
             error: vec![],
             details: serialized,

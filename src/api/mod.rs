@@ -15,5 +15,5 @@ pub fn api_service() -> Result<ServerReflectionServer<impl ServerReflection>, Er
     Ok(spec)
 }
 
-// RpcResult will help to make our service implementation easier to read.
-pub type RpcResult<T> = std::result::Result<tonic::Response<T>, tonic::Status>;
+// RpcResult will help to make our service implementation easier to read./
+//pub type RpcResult<T> = std::result::Result<tonic::Response<T>, tonic::Status>;
