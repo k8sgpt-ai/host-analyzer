@@ -350,7 +350,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "host-analzyer"
+name = "host-analyzer"
 version = "0.1.0"
 dependencies = [
  "prost",
