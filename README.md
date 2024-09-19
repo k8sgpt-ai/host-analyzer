@@ -7,5 +7,6 @@ This is an example of how to build external, use-case language specific plugins 
 
 ## Usage
 
+- `git submodule update --init --recursive`
 - Operate as a binary or `cargo run`
 - Set configuration options through K8sGPT ( _not covered here_)
